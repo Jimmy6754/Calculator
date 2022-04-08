@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+.main_container {
+  background-color: lightblue;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  background-color: #1b1b1b;
+  border-radius: 1.2rem;
+  opacity: 90%;
+  overflow: hidden;
+  position: relative;
+  width: 425px;
+  height: 670px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: grid;
+  justify-content: center;
+  
+  
+  grid-template-columns: 102px 102px 102px 102px;
+  grid-template-rows: 70px 70px 102px 102px 102px 102px 102px;
+}
+.display {
+  background: #1b1b1b;
+  color: white;
+  overflow: hidden;
+  width: 408px;
+  height: 70px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+button {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #101010;
+  color: white;
+}
+.Calc-btn-number {
+  background-color: #050505;
+}
+.Calc-btn-equal {
+  background-color: #1d212e;
+}
